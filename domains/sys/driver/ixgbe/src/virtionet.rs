@@ -24,11 +24,29 @@ const VIRTIO_MMIO_INTERRUPT_STATUS: u8 = 0x060; // read-only
 const VIRTIO_MMIO_INTERRUPT_ACK: u8 = 0x064; // write-only
 const VIRTIO_MMIO_STATUS: u8 = 0x070; // read/write
 
+struct Descriptor {}
+
 pub struct VirtioNet {}
 
 impl VirtioNet {
     pub fn new() -> Self {
         Self {}
+    }
+
+    fn init(&mut self) {
+        
+    }
+
+    fn init_device(&mut self) {
+
+    }
+
+    fn init_features(&mut self) {
+
+    }
+
+    fn init_queue(&mut self) {
+
     }
 }
 
